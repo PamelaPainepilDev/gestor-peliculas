@@ -1,0 +1,35 @@
+<h1>{{titulo}}</h1>
+
+<a href="/peliculas/nueva">Agregar nueva película</a>
+
+<table>
+    <thead>
+        <tr>
+            <th>Afiche</th>
+            <th>Título</th>
+            <th>Director</th>
+            <th>Género</th>
+            <th>Duración (min)</th>
+            <th>Año de estreno</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each peliculas}}
+        <tr>
+
+            <td>
+                {{#if this.foto}}
+                <img src="{{this.foto}}" alt="Afiche" style="width: 60px; height: 80px; object-fit: cover;">
+                {{else}}
+                Sin foto
+                {{/if}}
+            </td>
+            <td>{{this.titulo}}</td>
+            <td>{{this.director}}</td>
+            <td>{{this.genero}}</td>
+            <td>{{this.duracion}}</td>
+            <td>{{this.estreno}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

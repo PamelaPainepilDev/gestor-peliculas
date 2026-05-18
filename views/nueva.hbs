@@ -1,0 +1,32 @@
+<div style="margin: 30px;">
+<h1>{{titulo}}</h1>
+
+<form action="/peliculas" method="POST" enctype="multipart/form-data">
+<div>
+    <label>Título:</label>
+    <input type="text" name="titulo" required>
+</div>
+<div>
+    <label>Director:</label>
+    <input type="text" name="director" required>
+</div>
+<div>
+    <label>Género:</label>
+    <input type="text" name="genero" required>
+</div>
+
+<div>
+    <label>Duración (min):</label>
+    <input type="number" name="duracion" required>
+</div>
+<div>
+    <label>Año de estreno:</label>
+    <input type="number" name="estreno" required>
+</div>
+<div>
+    <label>Afiche</label>
+    <input type="file" name="foto" accept="image/*">
+</div>
+<button type="submit">Guardar Película</button>
+</form>
+</div>

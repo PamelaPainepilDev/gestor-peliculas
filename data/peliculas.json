@@ -1,0 +1,52 @@
+[
+  {
+    "titulo": "Titanic",
+    "director": "James Cameron",
+    "genero": "Drama",
+    "duracion": "195",
+    "estreno": "1997"
+  },
+  {
+    "titulo": "Thor: Ragnarok",
+    "director": "Taika Waititi",
+    "genero": "Acción",
+    "duracion": "130",
+    "estreno": "2017"
+  },
+  {
+    "titulo": "Los Vengadores",
+    "director": "Joss Whedon",
+    "genero": "Acción",
+    "duracion": "143",
+    "estreno": "2012"
+  },
+  {
+    "titulo": "El Rey León",
+    "director": "Jon Favreau",
+    "genero": "Animación",
+    "duracion": "118",
+    "estreno": "2019"
+  },
+  {
+    "titulo": "Interstellar",
+    "director": "Christopher Nolan",
+    "genero": "Ciencia Ficción",
+    "duracion": "169",
+    "estreno": "2014"
+  },
+  {
+    "titulo": "Coco",
+    "director": "Lee Unkrich",
+    "genero": "Animación",
+    "duracion": "105",
+    "estreno": "2017"
+  },
+  {
+    "titulo": "Shrek",
+    "director": "Andrew Adamson y Vicky Jenson",
+    "genero": "Animación",
+    "duracion": "90",
+    "estreno": "2001",
+    "foto": "/uploads/1778869254226-133311.png"
+  }
+]
