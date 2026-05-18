@@ -23,3 +23,4 @@ datos y fotos (afiche)
 Pamela Painepil
 
 ## URL del repositorio
+https://github.com/PamelaPainepilDev/gestor-peliculas
